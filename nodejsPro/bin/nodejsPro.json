@@ -1,0 +1,15 @@
+{
+  "apps": [
+    {
+      "name": "liuhl_test",
+      "script": "./bin/www",
+      "instances": 2,
+      "exec_mode": "cluster",
+      "merge_logs": true,
+      "restart_delay": 1000,
+      "out_file": "/app/logs_pm2/liuhl_test-out.log",
+      "error_file": "/app/logs_pm2/liuhl_test-error.log"
+    }
+
+  ]
+}
